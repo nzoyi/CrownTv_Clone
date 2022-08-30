@@ -28,7 +28,7 @@ const SplashScreen = ({ navigation, route }) => {
       <Image style={styles.image} source={require("../assets/CrownTV.png")} />
       <LottieView
         style={styles.Anime}
-        source={require("../assets/loading_anim.json")}
+        source={require("../assets/loading_anim1.json")}
         autoPlay
         loop={true}
         width={200}
