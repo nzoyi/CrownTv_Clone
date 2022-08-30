@@ -13,7 +13,7 @@ const SplashScreen = ({ navigation, route }) => {
       navigation.replace("Login");
     }*/
     navigation.replace("Dashboard");
-  }, 5000);
+  }, 6000);
 
   return (
     <View
@@ -28,7 +28,7 @@ const SplashScreen = ({ navigation, route }) => {
       <Image style={styles.image} source={require("../assets/CrownTV.png")} />
       <LottieView
         style={styles.Anime}
-        source={require("../assets/loading_anim1.json")}
+        source={require("../assets/loading_anime2.json")}
         autoPlay
         loop={true}
         width={200}
