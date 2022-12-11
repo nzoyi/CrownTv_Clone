@@ -3,14 +3,14 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBeKJKr0JoDjnUmN1eUkBN7SmAYOSUpC40",
-  authDomain: "datacenter3-projects.firebaseapp.com",
+  apiKey: "your-firebase-api_key",
+  authDomain: "your-firebase-url",
   databaseURL:
-    "https://datacenter3-projects-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "datacenter3-projects",
-  storageBucket: "datacenter3-projects.appspot.com",
-  messagingSenderId: "124225142030",
-  appId: "1:124225142030:web:2635c3c0b6add7152ceb5f",
+    "Your-Firebase_url",
+  projectId: "your-project-name",
+  storageBucket: "your-storage-bucket-name",
+  messagingSenderId: "your-messaging-id",
+  appId: "your-appId",
   measurementId: "G-1RC90VT7GB",
 };
 
